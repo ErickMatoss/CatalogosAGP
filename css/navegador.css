@@ -1,0 +1,39 @@
+.navegador{
+    position: fixed;
+    top: 1;
+    width: 200px;
+    height: 100vh;
+    background-color: #9F0D7F;
+    text-align: center;
+}
+
+.navegador_logo{
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.navegador_logo img{
+    width: 100%;
+}
+
+.navegador_opciones{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navegador_boton{
+    width: 95%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: sans-serif;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+    background: #F79BD3;
+}
+
+.navegador_boton:hover{
+    background: #F79BD3;
+}

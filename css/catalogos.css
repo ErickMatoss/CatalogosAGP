@@ -1,0 +1,70 @@
+.contenedor_catalogos{
+
+}
+
+.filtros_catalogos{
+    display: flex;
+    gap: 30px;
+}
+
+.filtro{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.filtro div{
+    font-weight: bold;
+}
+
+.filtro input{
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid #eee;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.tabla_catalogos{
+    width: 90%;
+    overflow: hidden;
+}
+
+.tabla_catalogos{
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+}
+
+.tabla_catalogos th, .tabla_catalogos td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabla_catalogos th {
+    background-color: #f2f2f2;
+    width: 100px;
+}
+
+.tabla_catalogos tr:hover {
+    background-color: #f5f5f5;
+}
+
+.tabla_catalogos td{
+    width: 100px;
+    max-width: 100px;
+    overflow: hidden;
+}
+
+/* Estilos para el encabezado de la tabla */
+.table-header {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
